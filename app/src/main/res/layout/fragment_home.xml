@@ -43,6 +43,8 @@
         android:layout_gravity="bottom">
         <!--滚动区-->
         <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -212,6 +214,13 @@
                 </LinearLayout>
             </LinearLayout>
             <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <TextView
+                android:paddingLeft="5dp"
                 android:text="全部商家"
                 android:textSize="18dp"
                 android:layout_width="match_parent"
@@ -224,4 +233,5 @@
             </ListView>
         </LinearLayout>
     </ScrollView>
+
 </FrameLayout>
