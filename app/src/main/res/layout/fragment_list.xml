@@ -5,9 +5,68 @@
     tools:context="cn.uhei.baidutakeout.ListFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
+
+        android:background="@color/colorListBg"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="List Fragment" />
+        >
+ <!--头部订单-->
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorAccent"
+            android:text="订单" />
+
+ <!--登陆框-->
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/list_bg"
+            >
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/tab_icon_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:text="你还没有登录，请登录后查看订单"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:background="@drawable/login_bg"
+            android:layout_gravity="center"
+            android:text="登录/注册"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:background="@color/colorLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+    </LinearLayout>
+
 
 </FrameLayout>

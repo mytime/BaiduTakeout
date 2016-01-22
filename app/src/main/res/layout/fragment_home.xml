@@ -216,10 +216,11 @@
             <TextView
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/colorLine"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
             <TextView
+                android:layout_marginBottom="20dp"
                 android:paddingLeft="5dp"
                 android:text="全部商家"
                 android:textSize="18dp"
@@ -227,8 +228,10 @@
                 android:layout_height="wrap_content" />
             <!--列表区-->
             <ListView
+                android:layout_weight="1"
+                android:id="@+id/lvHome"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp">
 
             </ListView>
         </LinearLayout>
