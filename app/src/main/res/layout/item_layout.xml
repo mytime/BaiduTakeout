@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivList"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/shopone" />
+
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivList"
+        android:width="160dp"
+        android:singleLine="true"
+        android:text="内蒙古特产专营店(上下九店)"
+        android:textColor="@color/colorTitle"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/ivItem1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivList"
+        android:src="@drawable/businesslistings_list_icon_star_full" />
+
+    <ImageView
+        android:id="@+id/ivItem2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivItem1"
+        android:src="@drawable/businesslistings_list_icon_star_full" />
+
+    <ImageView
+        android:id="@+id/ivItem3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivItem2"
+        android:src="@drawable/businesslistings_list_icon_star_full" />
+
+    <ImageView
+        android:id="@+id/ivItem4"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivItem3"
+        android:src="@drawable/businesslistings_list_icon_star_full" />
+
+    <ImageView
+        android:id="@+id/ivItem5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivItem3"
+        android:src="@drawable/businesslistings_list_icon_star_half" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@+id/ivItem5"
+        android:text="已售566份"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="990m"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvQisong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivList"
+        android:layout_toRightOf="@+id/ivList"
+        android:text="起送￥20 | 配送￥5 | 平均45分钟"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/ivJuan"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/waimai_shoplist_item_icon_juan" />
+
+    <ImageView
+        android:id="@+id/ivJian"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@id/ivJuan"
+        android:src="@drawable/waimai_shoplist_item_icon_jian" />
+
+    <ImageView
+        android:id="@+id/ivMian"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_toLeftOf="@id/ivJian"
+        android:src="@drawable/waimai_shoplist_item_icon_mian" />
+
+
+</RelativeLayout>

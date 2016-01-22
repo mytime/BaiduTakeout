@@ -7,4 +7,5 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorListBg">#EAE7F0</color>
     <color name="colorLine">#E1DDE4</color>
+    <color name="colorTitle">#000000</color>
 </resources>
