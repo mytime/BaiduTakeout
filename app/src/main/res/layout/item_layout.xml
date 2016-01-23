@@ -13,7 +13,7 @@
         android:src="@drawable/shopone" />
 
     <TextView
-        android:id="@+id/tvItem"
+        android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -25,7 +25,7 @@
         android:textSize="16dp" />
 
     <ImageView
-        android:id="@+id/ivItem1"
+        android:id="@+id/ivStar1"
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_centerVertical="true"
@@ -33,48 +33,49 @@
         android:src="@drawable/businesslistings_list_icon_star_full" />
 
     <ImageView
-        android:id="@+id/ivItem2"
+        android:id="@+id/ivStar2"
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/ivItem1"
+        android:layout_toRightOf="@+id/ivStar1"
         android:src="@drawable/businesslistings_list_icon_star_full" />
 
     <ImageView
-        android:id="@+id/ivItem3"
+        android:id="@+id/ivStar3"
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/ivItem2"
+        android:layout_toRightOf="@+id/ivStar2"
         android:src="@drawable/businesslistings_list_icon_star_full" />
 
     <ImageView
-        android:id="@+id/ivItem4"
+        android:id="@+id/ivStar4"
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/ivItem3"
+        android:layout_toRightOf="@+id/ivStar3"
         android:src="@drawable/businesslistings_list_icon_star_full" />
 
     <ImageView
-        android:id="@+id/ivItem5"
+        android:id="@+id/ivStar5"
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/ivItem3"
+        android:layout_toRightOf="@+id/ivStar3"
         android:src="@drawable/businesslistings_list_icon_star_half" />
 
     <TextView
-
+        android:id="@+id/tvSale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="13dp"
-        android:layout_toRightOf="@+id/ivItem5"
+        android:layout_toRightOf="@+id/ivStar5"
         android:text="已售566份"
         android:textSize="12dp" />
 
     <TextView
+        android:id="@+id/tvMi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -92,7 +93,7 @@
         android:textSize="12dp" />
 
     <ImageView
-        android:id="@+id/ivJuan"
+        android:id="@+id/ivQuan"
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:layout_alignParentRight="true"

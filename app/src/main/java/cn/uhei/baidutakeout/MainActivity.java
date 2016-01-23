@@ -2,6 +2,7 @@ package cn.uhei.baidutakeout;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,17 +11,30 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import java.io.IOException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private HomeFragment hf;
 
     private ImageView ivHome,ivList,ivMy;
     private TextView tvHome,tvList,tvMy;
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        context = this;
 
         ivHome = (ImageView) findViewById(R.id.ivHome);
         ivList = (ImageView) findViewById(R.id.ivList);
@@ -120,6 +134,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvHome.setTextColor(Color.parseColor("#FF2D48"));
         tvList.setTextColor(Color.parseColor("#585858"));
         tvMy.setTextColor(Color.parseColor("#585858"));
+
+
+
+
+
     }
 
     //测试
