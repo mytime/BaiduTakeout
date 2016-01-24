@@ -105,7 +105,7 @@
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:layout_marginLeft="5dp"
-        android:layout_toLeftOf="@id/ivJuan"
+        android:layout_toLeftOf="@id/ivQuan"
         android:src="@drawable/waimai_shoplist_item_icon_jian" />
 
     <ImageView

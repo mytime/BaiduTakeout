@@ -14,6 +14,18 @@ package cn.uhei.baidutakeout.models;
  <time>45</time>
  */
 public class Shop {
+
+    private String title;
+    private String mian;
+    private String jian;
+    private String quan;
+    private String star;
+    private String sale;
+    private String mi;
+    private String qisong;
+    private String peisong;
+    private String time;
+
     public String getTitle() {
         return title;
     }
@@ -22,88 +34,77 @@ public class Shop {
         this.title = title;
     }
 
-    public int getMian() {
+    public String getMian() {
         return mian;
     }
 
-    public void setMian(int mian) {
+    public void setMian(String mian) {
         this.mian = mian;
     }
 
-    public int getJian() {
+    public String getJian() {
         return jian;
     }
 
-    public void setJian(int jian) {
+    public void setJian(String jian) {
         this.jian = jian;
     }
 
-    public int getQuan() {
+    public String getQuan() {
         return quan;
     }
 
-    public void setQuan(int quan) {
+    public void setQuan(String quan) {
         this.quan = quan;
     }
 
-    public int getStar() {
+    public String getStar() {
         return star;
     }
 
-    public void setStar(int star) {
+    public void setStar(String star) {
         this.star = star;
     }
 
-    public int getSale() {
+    public String getSale() {
         return sale;
     }
 
-    public void setSale(int sale) {
+    public void setSale(String sale) {
         this.sale = sale;
     }
 
-    public int getMi() {
+    public String getMi() {
         return mi;
     }
 
-    public void setMi(int mi) {
+    public void setMi(String mi) {
         this.mi = mi;
     }
 
-    public int getQisong() {
+    public String getQisong() {
         return qisong;
     }
 
-    public void setQisong(int qisong) {
+    public void setQisong(String qisong) {
         this.qisong = qisong;
     }
 
-    public int getPeisong() {
+    public String getPeisong() {
         return peisong;
     }
 
-    public void setPeisong(int peisong) {
+    public void setPeisong(String peisong) {
         this.peisong = peisong;
     }
 
-    public int getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(int time) {
+    public void setTime(String time) {
         this.time = time;
     }
-
-    private String title;
-    private int mian;
-    private int jian;
-    private int quan;
-    private int star;
-    private int sale;
-    private int mi;
-    private int qisong;
-    private int peisong;
-    private int time;
 
     @Override
     public String toString() {
